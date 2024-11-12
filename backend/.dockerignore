@@ -1,0 +1,20 @@
+# Ignore common development files
+.git/
+.idea/
+*.pyc
+__pycache__/
+*.log
+*.pyo
+*.swp
+*.swo
+*.egg-info/
+
+# Ignore local settings and environment files
+.env
+local_settings.py
+
+# Ignore static files (if you're using a separate container for static files)
+static/
+
+# Ignore media files (if you're using a separate container for media files)
+media/
